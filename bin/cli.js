@@ -1,5 +1,7 @@
 #!/usr/bin/env/ node
 
+console.log("Executing cli.js");
+
 const {execSync} = require('child_process');
 
 const runCommand = command => {
@@ -11,6 +13,8 @@ const runCommand = command => {
     }
     return true;
 }
+
+
 
 const repoName = process.argv[2];
 const githubCheckoutCommand = `git clone --depth 1 https://github.com/Luckbox314/create-gh-page ${repoName}`;
