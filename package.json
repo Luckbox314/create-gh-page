@@ -1,6 +1,6 @@
 {
-  "name": "create-gh-page",
-  "version": "1.0.1",
+  "name": "luckbox314/create-gh-page",
+  "version": "1.0.2",
   "description": "template to create github pages",
   "main": "index.js",
   "bin": "./bin/cli.js",
